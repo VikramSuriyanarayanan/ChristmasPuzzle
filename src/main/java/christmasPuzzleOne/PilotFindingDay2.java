@@ -1,4 +1,4 @@
-package christmasPuzzleTwo;
+package christmasPuzzleOne;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -6,9 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import christmasPuzzleOne.CountMax;
-
-public class PilotFinding {
+public class PilotFindingDay2 {
 	
 	
 	public static final String HORIZONDAL_ADD = "forward";
@@ -25,7 +23,7 @@ public class PilotFinding {
 		    inputArray.add(inFile1.nextLine());
 		}
 		
-		PilotFinding c = new PilotFinding();
+		PilotFindingDay2 c = new PilotFindingDay2();
 		System.out.println(c.getDirection(inputArray));
 		System.out.println("*******************");
 		

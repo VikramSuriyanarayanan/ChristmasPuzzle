@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class CountMax {
+public class CountMaxDay1 {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
@@ -17,7 +17,7 @@ public class CountMax {
 		    inputArray.add(Integer.valueOf(inFile1.nextLine()));
 		}
 		
-		CountMax c = new CountMax();
+		CountMaxDay1 c = new CountMaxDay1();
 		System.out.println(c.getMax(inputArray));
 		System.out.println("*******************");
 		
